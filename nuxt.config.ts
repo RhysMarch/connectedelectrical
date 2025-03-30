@@ -1,12 +1,12 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  modules: ['@nuxt/ui', '@nuxt/fonts', '@nuxt/icon'],
-  css: ['~/assets/css/main.css'],
-  devtools: { enabled: true },
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/fonts',
+    '@nuxt/icon',
+    '@nuxtjs/sitemap'
+  ],
 
-  app: {
-     baseURL: '/connectedelectrical/'
-  },
+  css: ['~/assets/css/main.css'],
 
   ui: {
     theme: {
@@ -18,14 +18,19 @@ export default defineNuxtConfig({
     preset: 'static',
     prerender: {
       crawlLinks: false,
-      routes: [
-        '/', '/about', '/services', '/portfolio', '/contact', '/thank-you'
-      ]
+      routes: ['/', '/about', '/services', '/portfolio', '/contact', '/thank-you']
     },
     storage: {
-      'cache': {
+      cache: {
         driver: 'memory'
       }
     }
-  }
+  },
+
+  site: {
+    url: 'https://connectedelectricalsw.co.uk',
+    routes: ['/about', '/services', '/portfolio', '/contact']
+  },
+
+  compatibilityDate: '2025-03-31'
 })
