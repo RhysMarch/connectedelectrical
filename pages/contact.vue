@@ -1,9 +1,10 @@
+<!-- pages/contact.vue -->
 <template>
   <section class="relative bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 py-16 pt-30 shadow-[0_-8px_12px_-6px_rgba(0,0,0,0.08),0_8px_12px_-6px_rgba(0,0,0,0.08)] overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
       <img src="/ST_1.jpg" alt="Contact background" class="w-full h-full object-cover opacity-30" />
-      <div class="absolute inset-0 bg-black/60"></div> <!-- Optional dark overlay -->
+      <div class="absolute inset-0 bg-black/70"></div> <!-- Optional dark overlay -->
     </div>
 
     <div class="max-w-3xl mx-auto relative z-10">
@@ -87,6 +88,25 @@
 
 <script setup>
 useHead({
+  title: 'Contact Us | Connected Electrical',
+  meta: [
+    {
+      name: 'description',
+      content: 'Get in touch with Connected Electrical Contractors for reliable, high-quality electrical services across North Devon and the South West.'
+    },
+    {
+      name: 'robots',
+      content: 'index, follow'
+    },
+    {
+      property: 'og:title',
+      content: 'Contact Connected Electrical'
+    },
+    {
+      property: 'og:description',
+      content: 'Reach out for quotes, questions, or project enquiries. We’re here to help.'
+    }
+  ],
   script: [
     {
       src: 'https://www.google.com/recaptcha/api.js',
@@ -95,4 +115,5 @@ useHead({
     }
   ]
 })
+
 </script>
