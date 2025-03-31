@@ -15,9 +15,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'static',
+    preset: 'cloudflare-pages',
     prerender: {
       crawlLinks: false,
+      autoSubfolderIndex: false,
       routes: ['/', '/about', '/services', '/portfolio', '/contact', '/thank-you']
     },
     storage: {
@@ -29,6 +30,7 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://connectedelectricalsw.co.uk',
+    trailingSlash: false,
     routes: ['/about', '/services', '/portfolio', '/contact']
   },
 
