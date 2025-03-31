@@ -1,3 +1,4 @@
+<!-- pages/thank-you.vue -->
 <template>
   <section class="min-h-screen flex items-center justify-center px-6 bg-white text-center">
     <div>
