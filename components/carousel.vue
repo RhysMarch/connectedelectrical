@@ -1,6 +1,7 @@
 <!-- carousel.vue -->
 <script setup lang="ts">
 const items = [
+  '/IMG_0.jpg',
   '/IMG_2907.jpg',
   '/IMG_2569.jpg',
   '/IMG_2918.jpg',
