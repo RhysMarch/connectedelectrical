@@ -22,8 +22,7 @@
       <div>
         <h2 class="text-3xl font-bold text-zinc-900 mb-4">Who Are We</h2>
         <p class="text-gray-700 leading-relaxed">
-          Connected Electrical Contractors maintain a consistent level of high-quality workmanship and professionalism throughout every stage of your journey with us. Our team is trained across all areas of the industry — domestic, commercial and industrial — so you know you can trust our judgement and skill, no matter the job.
-        </p>
+          Connected Electrical Contractors have a consistent level of first-class workmanship and professionalism throughout each phase of your experience with us. All of our staff are trained in all facets of the trade — domestic, commercial and industrial — so you can be assured to trust our experience and advice no matter what the job.        </p>
       </div>
       <div>
         <img src="/IMG_12.jpg" alt="Connected Electrical Team" class="rounded-lg shadow-md h-80 w-full object-cover" />
@@ -61,8 +60,7 @@
       <div>
         <h2 class="text-3xl font-bold text-zinc-900 mb-4">Idea to Handover</h2>
         <p class="text-gray-700 leading-relaxed">
-          We don’t just carry out the work — we help bring your vision to life. From initial concepts through detailed planning and liaising with DNOs and ground workers, we manage full-scale installations right through to final handover. Whether it's a new build, a renovation, or even an entire campsite design, we’ve got the expertise to take your project from idea to reality.
-        </p>
+          We don't just do the work — we help turn your vision into reality. From initial designs through to detailed planning and coordination with DNOs and groundworkers, we manage full-scale installations right through to completion handover. Whether it's a new build, refurbishment, or even an entire campsite design, we have the ability to take your project from concept to reality.        </p>
       </div>
       <div>
         <img src="/IMG_4.jpg" alt="Connected Electrical Team" class="rounded-lg shadow-md h-80 w-full object-cover" />
