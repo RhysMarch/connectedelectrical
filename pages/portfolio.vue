@@ -39,8 +39,8 @@ const projects = [
   },
   {
     title: 'Title Here',
-    location: 'Simonsbath',
-    images: ['/IMG_2710.jpg', 'IMG_2712.jpg', 'IMG_2713.jpg', 'IMG_1858.jpg', 'IMG_1853.jpg', 'IMG_2711.jpg'],
+    location: 'Croyde',
+    images: ['/IMG_0.jpg', 'IMG_13.jpg', 'IMG_14.jpg'],
     description: 'Description Here'
   }
 ]
