@@ -54,12 +54,36 @@ const projects = [
     location: 'Ilfracombe',
     images: ['/IMG_15.jpg', '/IMG_16.jpg', 'IMG_17.jpg'],
     description: 'Description Here'
-  }
+  },
+  {
+    title: 'New Build Wiring',
+    location: 'Ilfracombe',
+    images: ['/IMG_234.jpg', '/IMG_235.jpg', 'IMG_236.jpg', 'IMG_237.jpg'],
+    description: 'Description Here'
+  },
+  {
+    title: 'Kitchen Renovation',
+    location: 'Wellington',
+    images: ['/IMG_2.jpeg', 'IMG_323.jpg', 'IMG_324.jpg'],
+    description: 'Description Here'
+  },
+  {
+    title: 'Metal Conduit Install & Circuit Additions',
+    location: 'Barnstaple',
+    images: ['/IMG_445.jpg', 'IMG_446.jpg'],
+    description: 'Description Here'
+  },
+  {
+    title: 'Bathroom Wiring, Lighting & Underfloor Heating',
+    location: 'Barnstaple',
+    images: ['/IMG_555.jpg', 'IMG_556.jpg', 'IMG_557.jpg'],
+    description: 'Description Here'
+  },
 ]
 </script>
 
 <template>
-  <section class="bg-white px-6 py-30">
+  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 py-30 ">
     <div class="max-w-7xl mx-auto text-center mb-12">
       <h1 class="text-4xl font-bold text-zinc-900 mb-4">Our Portfolio</h1>
       <p class="text-gray-700 max-w-2xl mx-auto">
@@ -67,7 +91,7 @@ const projects = [
       </p>
     </div>
 
-    <div class="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
       <div
           v-for="(project, index) in projects"
           :key="index"
