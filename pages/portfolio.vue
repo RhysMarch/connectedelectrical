@@ -75,8 +75,20 @@ const projects = [
   },
   {
     title: 'Bathroom Wiring, Lighting & Underfloor Heating',
-    location: 'Barnstaple',
+    location: 'Ilfracombe',
     images: ['/IMG_555.jpg', 'IMG_556.jpg', 'IMG_557.jpg'],
+    description: 'Description Here'
+  },
+  {
+    title: 'Flood Lighting',
+    location: 'Ilfracombe',
+    images: ['/IMG_666.jpg', 'IMG_667.jpg', 'IMG_668.jpg', 'IMG_669.jpg'],
+    description: 'Description Here'
+  },
+  {
+    title: 'EV Charger Supply',
+    location: 'Lee, Devon',
+    images: ['/IMG_888.jpg', 'IMG_889.jpg', 'IMG_668.jpg', 'IMG_890.jpg'],
     description: 'Description Here'
   },
 ]
