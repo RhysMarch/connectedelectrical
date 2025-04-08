@@ -20,37 +20,37 @@ useHead({
 
 const projects = [
   {
-    title: 'Title Here',
-    location: 'Corrie, Woolacombe',
+    title: 'Underfloor Heating & Lights Installation',
+    location: 'Woolacombe',
     images: ['/IMG_2907.jpg', 'IMG_2569.jpg', 'IMG_2918.jpg', 'IMG_2913.jpg', 'IMG_2576.jpg', 'IMG_2922.jpg'],
     description: 'Description Here'
   },
   {
-    title: 'Title Here',
-    location: 'Annex, Fairfield',
+    title: 'Consumer Unit Installation',
+    location: 'Fairfield',
     images: ['/IMG_2985.jpg', 'IMG_2986.jpg', 'IMG_2984.jpg'],
     description: 'Description Here'
   },
   {
-    title: 'Title Here',
+    title: 'Wiring & Lighting',
     location: 'Simonsbath',
     images: ['/IMG_2710.jpg', 'IMG_2712.jpg', 'IMG_2713.jpg', 'IMG_1858.jpg', 'IMG_1853.jpg', 'IMG_2711.jpg'],
     description: 'Description Here'
   },
   {
-    title: 'Title Here',
+    title: 'Outdoor Lighting',
     location: 'Croyde',
     images: ['/IMG_0.jpg', 'IMG_13.jpg', 'IMG_14.jpg'],
     description: 'Description Here'
   },
   {
-    title: 'Title Here',
+    title: 'Kitchen Rewire',
     location: 'Woolacombe',
     images: ['/IMG_123.jpg', 'IMG_124.jpg', 'IMG_125.jpg', 'IMG_126.jpg'],
     description: 'Description Here'
   },
   {
-    title: 'Title Here',
+    title: 'Sub-Main Installation & Consumer Unit Upgrade',
     location: 'Ilfracombe',
     images: ['/IMG_15.jpg', '/IMG_16.jpg', 'IMG_17.jpg'],
     description: 'Description Here'
