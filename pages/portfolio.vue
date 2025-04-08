@@ -28,7 +28,7 @@ const projects = [
   {
     title: 'Title Here',
     location: 'Annex, Fairfield',
-    images: [],
+    images: ['/IMG_2985.jpg', 'IMG_2986.jpg', 'IMG_2984.jpg'],
     description: 'Description Here'
   },
   {
@@ -49,7 +49,7 @@ const projects = [
       </p>
     </div>
 
-    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
       <div
           v-for="(project, index) in projects"
           :key="index"
@@ -64,7 +64,7 @@ const projects = [
             :ui="{ item: 'basis-full' }"
             class="w-full"
         >
-          <div class="h-64 w-full overflow-hidden rounded-t-xl">
+          <div class="h-96 w-full overflow-hidden rounded-t-xl">
             <img
                 :src="item"
                 alt=""
