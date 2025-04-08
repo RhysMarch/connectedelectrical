@@ -42,6 +42,18 @@ const projects = [
     location: 'Croyde',
     images: ['/IMG_0.jpg', 'IMG_13.jpg', 'IMG_14.jpg'],
     description: 'Description Here'
+  },
+  {
+    title: 'Title Here',
+    location: 'Woolacombe',
+    images: ['/IMG_123.jpg', 'IMG_124.jpg', 'IMG_125.jpg', 'IMG_126.jpg'],
+    description: 'Description Here'
+  },
+  {
+    title: 'Title Here',
+    location: 'Ilfracombe',
+    images: ['/IMG_15.jpg', '/IMG_16.jpg', 'IMG_17.jpg'],
+    description: 'Description Here'
   }
 ]
 </script>
