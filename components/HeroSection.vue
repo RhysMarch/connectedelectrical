@@ -4,11 +4,11 @@ import carousel from '~/components/carousel.vue'
 </script>
 
 <template>
-  <div class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 pt-24 px-4 border-t border-gray-200 shadow md:min-h-[100vh]">
+  <div class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 pt-32 px-4 py-16 shadow md:min-h-[100vh]">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
 
       <!-- Left: Welcome Text -->
-      <div class="flex flex-col justify-center md:min-h-[80vh] pl-10 md:pl-30">
+      <div class="flex flex-col justify-center items-center text-center md:items-start md:text-left md:min-h-[80vh] pl-4 pr-4 md:pl-30">
         <div>
           <h1 class="text-5xl font-bold mb-4 text-black leading-tight">
             Welcome to Connected Electrical Contractors
@@ -26,7 +26,7 @@ import carousel from '~/components/carousel.vue'
       </div>
 
       <!-- Right: Carousel -->
-      <div class="flex justify-center items-center md:min-h-[80vh]">
+      <div class="hidden md:flex justify-center items-center md:min-h-[80vh]">
         <carousel />
       </div>
 

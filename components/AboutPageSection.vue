@@ -1,23 +1,12 @@
 <template>
-  <!-- Hero Section -->
-  <section class="relative min-h-screen flex items-center justify-center px-6 bg-gradient-to-r from-zinc-200 via-white to-zinc-200 shadow-[inset_0_8px_12px_-6px_rgba(0,0,0,0.1),inset_0_-8px_12px_-6px_rgba(0,0,0,0.1)] overflow-hidden">
-    <div class="absolute inset-0">
-      <img
-          src="/STOCK_IMAGE.jpeg"
-          alt="Electrician at work"
-          class="w-full h-full object-cover opacity-30"
-      />
-    </div>
-    <div class="relative z-10 max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl font-bold text-black mb-4">About Connected Electrical</h1>
-      <p class="text-lg text-black max-w-2xl mx-auto">
+  <!-- Who Are We -->
+  <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 px-6 pt-50 ">
+    <div class="max-w-7xl mx-auto text-center mb-12">
+      <h1 class="text-4xl font-bold text-zinc-900 mb-4">About Connected Electical</h1>
+      <p class="text-gray-700 max-w-2xl mx-auto">
         Trusted electrical contractors serving North Devon and the South West, with a commitment to quality, professionalism, and customer satisfaction.
       </p>
     </div>
-  </section>
-
-  <!-- Who Are We -->
-  <section class="bg-white px-6 py-20">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <h2 class="text-3xl font-bold text-zinc-900 mb-4">Who Are We</h2>
@@ -31,7 +20,7 @@
   </section>
 
   <!-- Where We Work -->
-  <section class="bg-white w-full px-6 py-20 ">
+  <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 w-full px-6 py-20">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <div class="rounded-lg shadow-md h-80 w-full overflow-hidden">
@@ -55,7 +44,7 @@
   </section>
 
   <!-- Idea to Handover Section -->
-  <section class="bg-white px-6 py-20">
+  <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 px-6 pb-20">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <h2 class="text-3xl font-bold text-zinc-900 mb-4">Idea to Handover</h2>
@@ -69,7 +58,7 @@
   </section>
 
   <!-- Accreditations -->
-  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 py-20 shadow-[inset_0_8px_12px_-6px_rgba(0,0,0,0.1),inset_0_-8px_12px_-6px_rgba(0,0,0,0.1)]">
+  <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 px-6 pb-20">
     <div class="max-w-4xl mx-auto text-center space-y-6">
       <h2 class="text-3xl font-bold text-zinc-900">Accreditations & Standards</h2>
       <p class="text-gray-700">
@@ -81,3 +70,5 @@
     </div>
   </section>
 </template>
+<script setup lang="ts">
+</script>

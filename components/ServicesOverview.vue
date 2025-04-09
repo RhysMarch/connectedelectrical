@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white text-black border-t border-gray-200 px-6 pt-8 pb-16 shadow-[0_-8px_12px_-6px_rgba(0,0,0,0.08),0_8px_12px_-6px_rgba(0,0,0,0.08)]">
+  <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 border border-gray-300 text-black px-6 py-30">
     <div class="max-w-7xl mx-auto text-center mb-12">
       <h2 class="text-3xl font-bold text-gray-900 mb-2">Our Services</h2>
       <p class="text-gray-600 text-base">

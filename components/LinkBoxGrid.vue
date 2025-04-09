@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white px-6 py-16 shadow-[0_-8px_12px_-6px_rgba(0,0,0,0.08),0_8px_12px_-6px_rgba(0,0,0,0.08)]">
+  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 pb-32 ">
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         <div

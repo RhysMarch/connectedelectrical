@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 w-full border-t border-gray-200 bg-white ">
+  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 w-full">
     <div class="max-w-7xl mx-auto px-4 py-12">
       <h2 class="text-3xl font-bold text-black mb-6 text-center">Where to Find Us</h2>
       <div class="rounded-xl overflow-hidden shadow-md">

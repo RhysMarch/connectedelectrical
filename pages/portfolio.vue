@@ -95,7 +95,7 @@ const projects = [
 </script>
 
 <template>
-  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 py-30 ">
+  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 py-50 ">
     <div class="max-w-7xl mx-auto text-center mb-12">
       <h1 class="text-4xl font-bold text-zinc-900 mb-4">Our Portfolio</h1>
       <p class="text-gray-700 max-w-2xl mx-auto">

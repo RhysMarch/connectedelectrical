@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 text-black border-t border-gray-200 text-black px-6 py-16 space-y-24">
+  <section class="bg-gradient-to-r from-zinc-200 via-white to-zinc-200 px-6 py-30 pb-30 space-y-24">
 
     <!-- First Row: Welcome Section -->
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="bg-white text-black p-6 rounded-xl border border-black/20 shadow-sm hover:shadow-xl transition duration-300 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <img src="/IMG_2.jpeg" alt="About Connected Electrical" class="rounded-lg shadow-xl w-full object-cover" />
       </div>
@@ -15,7 +15,7 @@
     </div>
 
     <!-- Second Row: What We Do -->
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="bg-white text-black p-6 rounded-xl border border-black/20 shadow-sm hover:shadow-xl transition duration-300 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <h2 class="text-3xl font-bold text-gray-900 mb-4">What We Do</h2>
         <p class="text-gray-700 text-base leading-relaxed">
