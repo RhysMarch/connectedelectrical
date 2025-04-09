@@ -7,7 +7,7 @@
         Trusted electrical contractors serving North Devon and the South West, with a commitment to quality, professionalism, and customer satisfaction.
       </p>
     </div>
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="bg-white text-black p-6 rounded-xl border border-black/20 shadow-sm hover:shadow-xl transition duration-300 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <h2 class="text-3xl font-bold text-zinc-900 mb-4">Who Are We</h2>
         <p class="text-gray-700 leading-relaxed">
@@ -21,7 +21,7 @@
 
   <!-- Where We Work -->
   <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 w-full px-6 py-20">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="bg-white text-black p-6 rounded-xl border border-black/20 shadow-sm hover:shadow-xl transition duration-300 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <div class="rounded-lg shadow-md h-80 w-full overflow-hidden">
           <iframe
@@ -45,7 +45,7 @@
 
   <!-- Idea to Handover Section -->
   <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 px-6 pb-20">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="bg-white text-black p-6 rounded-xl border border-black/20 shadow-sm hover:shadow-xl transition duration-300 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <h2 class="text-3xl font-bold text-zinc-900 mb-4">Idea to Handover</h2>
         <p class="text-gray-700 leading-relaxed">
@@ -59,7 +59,7 @@
 
   <!-- Accreditations -->
   <section class="bg-gradient-to-r from-zinc-100 via-white to-zinc-100 px-6 pb-20">
-    <div class="max-w-4xl mx-auto text-center space-y-6">
+    <div class="bg-white text-black p-6 rounded-xl border border-black/20 shadow-sm hover:shadow-xl transition duration-300 max-w-4xl mx-auto text-center space-y-6">
       <h2 class="text-3xl font-bold text-zinc-900">Accreditations & Standards</h2>
       <p class="text-gray-700">
         All our electricians are qualified to the highest standards, working to the latest British Standards (BS 7671:2018) and regulations. We're a fully approved NICEIC contractor.
