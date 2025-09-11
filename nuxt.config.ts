@@ -1,9 +1,10 @@
+// nuxt.config.ts
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxt/fonts',
     '@nuxt/icon',
-    '@nuxtjs/sitemap'
+    'nuxt-simple-sitemap' // ✅ replaces @nuxtjs/sitemap
   ],
 
   css: ['~/assets/css/main.css'],
@@ -17,22 +18,22 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'cloudflare-pages',
     prerender: {
-      crawlLinks: false,
-      autoSubfolderIndex: false,
+      crawlLinks: true, // auto-detect routes from <NuxtLink>
       routes: ['/', '/about', '/services', '/portfolio', '/contact', '/thank-you']
-    },
-    storage: {
-      cache: {
-        driver: 'memory'
-      }
     }
   },
 
   site: {
     url: 'https://connectedelectricalsw.co.uk',
-    trailingSlash: false,
-    routes: ['/about', '/services', '/portfolio', '/contact']
+    trailingSlash: false
   },
 
+  sitemap: {
+    siteUrl: 'https://connectedelectricalsw.co.uk',
+    exclude: ['/thank-you'], // optional: don’t index thank-you page
+    autoLastmod: true
+  },
+
+  ssr: false, // ✅ static export for Cloudflare Pages
   compatibilityDate: '2025-03-31'
 })

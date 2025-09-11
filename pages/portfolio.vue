@@ -22,32 +22,32 @@ const projects = [
     {
       title: 'Mullacott Parks',
       location: 'North Devon',
-      images: ['/Mullacott Parks 1.jpg', '/Mullacott Parks 2.jpg', '/Mullacott Parks 3.jpg', '/Mullacott Parks 4.jpg', '/Mullacott Parks 5.jpg', '/Mullacott Parks 6.jpg'],
+      images: ['/MullacottParks1.jpg', '/MullacottParks2.jpg', '/MullacottParks3.jpg', '/MullacottParks4.jpg', '/MullacottParks5.jpg', '/MullacottParks6.jpg'],
       description: 'We liaised with the DNO to arrange a new three-phase, 200-amp-per-phase supply for a new field, providing the infrastructure for a future caravan site development. \n' +
           'Our team installed two 70mm five-core SWA cables, trenched to feed two distribution boards housed within an IP-rated GRP kiosk. Cabling was then installed to deliver power to 41 units across the field with each lodge installed on a TT stake [earth electrode] '
     },
     {
       title: 'Thatched Roof Rewiring',
       location: 'Devon',
-      images: ['/Thatched Roof Rewiring 2.jpg', '/Thatched Roof Rewiring 1.jpg', '/Thatched Roof Rewiring 3.jpg', '/Thatched Roof Rewiring 4.jpg', '/Thatched Roof Rewiring 5.jpg'],
+      images: ['/ThatchedRoofRewiring2.jpg', '/ThatchedRoofRewiring1.jpg', '/ThatchedRoofRewiring3.jpg', '/ThatchedRoofRewiring4.jpg', '/ThatchedRoofRewiring5.jpg'],
       description: 'Being based in Devon, thatched roof properties are a common feature. Our electricians have extensive knowledge of the specific regulations required when working on these homes or commercial properties. Shown here are a few examples of circuits we have rewired using metal containment to ensure both safety and compliance '
     },
     {
       title: 'Electrical Testing',
       location: 'Devon',
-      images: ['/Electrical Testing 1.jpg'],
+      images: ['/ElectricalTesting1.jpg'],
       description: 'Whether it’s a caravan lodge, home, school, or factory, we provide comprehensive electrical inspections for all types of premises. Our inspections can be carried out for insurance requirements, regulatory compliance, or simply to give you complete peace of mind about the safety of your installation. '
     },
     {
     title: 'Kitchen Renovations',
     location: 'North Devon',
-    images: ['/Kitchen Renovations 1.jpg', '/Kitchen Renovations 2.jpg', '/Kitchen Renovations 3.jpg', '/Kitchen Renovations 4.jpg', '/Kitchen Renovations 5.jpg', '/Kitchen Renovations 6.jpg', '/Kitchen Renovations 7.jpg', '/Kitchen Renovations 8.jpg'],
+    images: ['/KitchenRenovations1.jpg', '/KitchenRenovations2.jpg', '/KitchenRenovations3.jpg', '/KitchenRenovations4.jpg', '/KitchenRenovations5.jpg', '/KitchenRenovations6.jpg', '/KitchenRenovations7.jpg', '/KitchenRenovations8.jpg'],
     description: 'We work in close partnership with a number of kitchen fitters and builders across Devon, supporting both domestic and commercial projects. Our role typically includes installing new circuits, upgrading distribution boards, and ensuring that all electrical work meets the latest safety standards while complementing the design and functionality of each kitchen. Below is a selection of photos showcasing some of the kitchens we’ve had the privilege to work on. '
   },
   {
     title: 'Consumer Unit Installations',
     location: 'Devon',
-    images: ['/Consumer unit Installation 1.jpg', 'Consumer unit Installation 2.jpg', 'Consumer unit Installation 3.jpg', 'Consumer unit Installation 4.jpg', 'Consumer unit Installation 5.jpg', 'Consumer unit Installation 6.jpg', 'Consumer unit Installation 7.jpg', 'Consumer unit Installation 8.jpg', 'Consumer unit Installation 9.jpg', 'Consumer unit Installation 10.jpg', 'Consumer unit Installation 11.jpg', 'Consumer unit Installation 12.jpg', "Consumer unit Installation 13.jpg"],
+    images: ['/ConsumerUnitInstallation1.jpg', 'ConsumerUnitInstallation2.jpg', 'ConsumerUnitInstallation3.jpg', 'ConsumerUnitInstallation4.jpg', 'ConsumerUnitInstallation5.jpg', 'ConsumerUnitInstallation6.jpg', 'ConsumerUnitInstallation7.jpg', 'ConsumerUnitInstallation8.jpg', 'ConsumerUnitInstallation9.jpg', 'ConsumerUnitInstallation10.jpg', 'ConsumerUnitInstallation11.jpg', 'ConsumerUnitInstallation12.jpg', "ConsumerUnitInstallation13.jpg"],
     description: 'These projects involved the replacement of the existing consumer unit with a modern 18th Edition–compliant metal unit, complete with full RCBO protection as standard and an integrated Surge Protection Device (SPD). This upgrade provides enhanced safety, reliability, and full compliance with current wiring regulations. '
   },
   {
@@ -59,7 +59,7 @@ const projects = [
   {
     title: 'Outdoor Lighting',
     location: 'Croyde',
-    images: ['/Outdoor Light 1.jpg', 'Outdoor Light 2.jpg', 'Outdoor Light 3.jpg', 'Outdoor Light 4.jpg', 'Outdoor Light 5.jpg'],
+    images: ['/OutdoorLight1.jpg', 'OutdoorLight2.jpg', 'OutdoorLight3.jpg', 'OutdoorLight4.jpg', 'OutdoorLight5.jpg'],
     description: 'We were fortunate to work on this project for a client with a fantastic eye for detail. The installation of feature lighting was designed to beautifully enhance and amplify this outdoor dining space. '
   },
   {
@@ -89,13 +89,13 @@ const projects = [
   {
     title: 'Flood Lighting',
     location: 'Ilfracombe',
-    images: ['/Flood Lighting 1.jpg', 'Flood Lighting 2.jpg', 'Flood Lighting 3.jpg', 'Flood Lighting 4.jpg', 'Flood Lighting 5.jpg'],
+    images: ['/FloodLighting1.jpg', 'FloodLighting2.jpg', 'FloodLighting3.jpg', 'FloodLighting4.jpg', 'FloodLighting5.jpg'],
     description: 'I’m proud to volunteer with Ilfracombe Football Club, supporting the local community. Our work includes maintaining the pitch floodlighting, replacing metal halide lamps, and fitting new capacitors to ensure the pitch is fully illuminated once again. '
   },
   {
     title: 'EV Chargers',
     location: 'Lee, Devon',
-    images: ['/EV Chargers 1.jpg', 'EV Chargers 2.jpg', 'EV Chargers 4.jpg'],
+    images: ['/EVChargers1.jpg', 'EVChargers2.jpg', 'EVChargers4.jpg'],
     description: 'Description Here'
   }
 ]

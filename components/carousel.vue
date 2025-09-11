@@ -2,7 +2,7 @@
 <script setup lang="ts">
 const items = [
   '/van_picture_under_light.jpg',
-  '/Outdoor Light 1.jpg',
+  '/OutdoorLight1.jpg',
   '/IMG_2907.jpg',
   '/IMG_2569.jpg',
   '/IMG_2918.jpg',
