@@ -65,7 +65,7 @@
         All our electricians are qualified to the highest standards, working to the latest British Standards (BS 7671:2018) and regulations. We're a fully approved NICEIC contractor.
       </p>
       <div class="flex justify-center">
-        <img src="/niceic-logo.png" alt="NICEIC Approved Contractor" class="h-40 object-contain" />
+        <img src="/niceic-logos.jpg" alt="NICEIC Approved Contractor" class="h-40 object-contain" />
       </div>
     </div>
   </section>
