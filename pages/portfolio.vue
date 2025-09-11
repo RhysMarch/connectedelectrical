@@ -66,25 +66,25 @@ const projects = [
     title: 'Sub-Main Installation for Double Garage',
     location: 'Ilfracombe',
     images: ['/IMG_15.jpg', '/IMG_16.jpg', 'IMG_17.jpg'],
-    description: 'Description Here'
+    description: 'We were contracted to install the full electrical system for a new double garage. This included running a new SWA armoured sub-main cable from the main property, providing a reliable and safe power supply. From the new consumer unit in the garage, we fitted circuits for a small workshop, integrated LED strip lights, and general-purpose sockets, as well as installing external LED floodlights for enhanced security'
   },
   {
     title: 'New Build Wiring',
     location: 'Ilfracombe',
     images: ['/IMG_234.jpg', '/IMG_235.jpg', 'IMG_236.jpg', 'IMG_237.jpg'],
-    description: 'Description Here'
+    description: 'From single homes to large developments, our team handles all aspects of new build electrical installations. We work directly from architectural plans and coordinate with other contractors to ensure a quality, on-time finish.'
   },
   {
     title: 'Metal Conduit Install and Joinery Equipment Install',
     location: 'Barnstaple',
     images: ['/IMG_445.jpg', 'IMG_446.jpg'],
-    description: 'Description Here'
+    description: 'We installed new 3-phase power for a client\'s woodworking machinery. Our expertise includes working with metal containment, which we can manually fabricate to provide a bespoke and highly durable solution.'
   },
   {
     title: 'Bathroom Wiring, Lighting & Underfloor Heating',
     location: 'Ilfracombe',
     images: ['/IMG_555.jpg', 'IMG_556.jpg', 'IMG_557.jpg'],
-    description: 'Description Here'
+    description: 'This project involved installing electric underfloor heating to create a modern, high-spec bathroom. We worked in close coordination with the tiler to ensure precise fitting and a flawless finish. Additionally, we altered the existing electrical circuits to accommodate the new layout and features, delivering a beautiful and functional space.'
   },
   {
     title: 'Flood Lighting',
@@ -96,7 +96,7 @@ const projects = [
     title: 'EV Chargers',
     location: 'Lee, Devon',
     images: ['/EVChargers1.jpg', 'EVChargers2.jpg', 'EVChargers4.jpg'],
-    description: 'Description Here'
+    description: 'From single domestic chargers to large car park installations, we can provide a complete and professional service. Our team offers a specialist design and tailored installation process to ensure the ideal solution for your specific needs, whether for a home, business, or public space.'
   }
 ]
 
