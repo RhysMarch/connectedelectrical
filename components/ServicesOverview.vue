@@ -7,7 +7,7 @@
       </p>
     </div>
 
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
       <!-- Service Box -->
       <div
           v-for="(service, index) in services"
@@ -49,6 +49,12 @@ const services = [
     icon: 'mdi:factory',
     description:
         'Robust electrical services for industrial sites — including maintenance, systems integration, and safety assessments.'
+  },
+  {
+    title: 'Caravan Site Specialist',
+    icon: 'mdi:caravan',
+    description:
+        'Specialist electrical solutions for caravan sites, including hookups, safety compliance, and energy-efficient installations.'
   }
 ]
 </script>
