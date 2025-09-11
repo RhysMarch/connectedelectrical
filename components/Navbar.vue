@@ -23,11 +23,20 @@ const mobileOpen = ref(false)
           <img src="/LogoNoText.png" alt="Connected Electrical" class="h-12" />
         </NuxtLink>
 
-        <!-- Phone number (sleek + clickable) -->
+        <!-- Desktop: phone link -->
         <a
-            href="tel:07447958382"
-            class="text-base font-semibold text-gray-900 hover:text-primary transition-colors underline underline-offset-4"
+            href="tel:+447447958382"
+            class="hidden md:inline text-base font-semibold text-gray-900 hover:text-primary transition-colors underline underline-offset-4"
             aria-label="Call Connected Electrical on 07447 958 382"
+        >
+          07447&nbsp;958&nbsp;382
+        </a>
+
+        <!-- Mobile: WhatsApp link, same phone text -->
+        <a
+            href="https://wa.me/447447958382?text=Hi%20Connected%20Electrical%2C%20I%27d%20like%20a%20quote."
+            class="inline md:hidden text-base font-semibold text-gray-900 hover:text-primary transition-colors underline underline-offset-4"
+            aria-label="Message Connected Electrical on WhatsApp"
         >
           07447&nbsp;958&nbsp;382
         </a>
@@ -73,4 +82,3 @@ const mobileOpen = ref(false)
     </transition>
   </header>
 </template>
-
