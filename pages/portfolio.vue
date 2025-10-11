@@ -95,7 +95,7 @@ const projects = [
   {
     title: 'EV Chargers',
     location: 'Lee, Devon',
-    images: ['/EVChargers1.jpg', 'EVChargers2.jpg', 'EVChargers4.jpg'],
+    images: ['/EVChargers1.jpg', 'EVChargers4.jpg'],
     description: 'From single domestic chargers to large car park installations, we can provide a complete and professional service. Our team offers a specialist design and tailored installation process to ensure the ideal solution for your specific needs, whether for a home, business, or public space.'
   }
 ]
